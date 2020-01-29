@@ -3,13 +3,12 @@ package AlgRecursion;
 import java.math.BigInteger;
 import java.util.Scanner;
 
-import javax.jws.soap.SOAPBinding;
 
 public class DynamicProgramming {
 
 	
-	static int sum = 0; // ¼ÇÂ¼ÊÖÖÐµÄÅÆµÄÊýÄ¿
-    static int ans = 0; // ¼ÇÂ¼½á¹û
+	static int sum = 0; // ï¿½ï¿½Â¼ï¿½ï¿½ï¿½Ðµï¿½ï¿½Æµï¿½ï¿½ï¿½Ä¿
+    static int ans = 0; // ï¿½ï¿½Â¼ï¿½ï¿½ï¿½
     
     public static void main(String[] args) {
     	  int[][] dp = new int[14][14];
