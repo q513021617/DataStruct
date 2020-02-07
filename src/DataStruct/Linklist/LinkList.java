@@ -11,6 +11,7 @@ public class LinkList {
     }
 
     public boolean add(int i) {
+
         Node node = new Node(i);
         if (first == null) {
             tail = node;
