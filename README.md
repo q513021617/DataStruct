@@ -1,8 +1,5 @@
 # DataStruct
-数据结构
-## 1，线性表
-### 1，顺序表（squeeze）
-### 2，栈（stack）
-## 2，非线性
-### 1，树
-### 2，图
+# 数据结构与算法
+
+## <a href="https://github.com/q513021617/DataStruct/tree/master/src/AlgRecursion">算法</a>
+## <a href="https://github.com/q513021617/DataStruct/tree/master/src/DataStruct">数据结构 </a>
