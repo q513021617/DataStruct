@@ -3,6 +3,8 @@ package DataStruct.Linklist;
 public class LinkListDemo {
 
     public static void main(String[] args) {
+
+
             LinkList templinklist=new LinkList();
 //            增
             templinklist.add(1);

@@ -1,4 +1,4 @@
-package DataStruct;
+package DataStruct.Queue;
 
 public interface PriorityQueue {
 

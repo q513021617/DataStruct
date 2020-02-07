@@ -1,4 +1,4 @@
-package DataStruct;
+package DataStruct.Queue;
 
 import java.util.Comparator;
 import java.util.LinkedList;

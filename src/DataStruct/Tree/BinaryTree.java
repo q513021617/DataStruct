@@ -1,9 +1,7 @@
-package DataStruct;
-
-import java.sql.Date;
+package DataStruct.Tree;
 
 /**
- * 	¶þ²æÊ÷±éÀú½á¹¹¼Ó±éÀú
+ * 	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½á¹¹ï¿½Ó±ï¿½ï¿½ï¿½
  * @author Administrator
  *
  */
@@ -72,7 +70,7 @@ class Node{
 		return false;
 	}
 	
-	//ÖÐÐò±éÀú ÖÐÐò±éÀú:×ó×ÓÊ÷¡ª¡ª¡·¸ù½Úµã¡ª¡ª¡·ÓÒ×ÓÊ÷
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Úµã¡ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	public void infixOrder(Node current) {
 		
 		if(current!=null) {
@@ -83,7 +81,7 @@ class Node{
 		
 		
 	}
-	//Ç°Ðò±éÀú ¸ù½Úµã¡ª¡ª¡·×ó×ÓÊ÷¡ª¡ª¡·ÓÒ×ÓÊ÷
+	//Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Úµã¡ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	public void preOrder(Node current) {
 		if(current!=null) {
 			System.out.print(current.data+" ");
@@ -92,7 +90,7 @@ class Node{
 		}
 	}
 	
-	//ºóÐò±éÀú ×ó×ÓÊ÷¡ª¡ª¡·ÓÒ×ÓÊ÷¡ª¡ª¡·¸ù½Úµã
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½
 	public void postOrder(Node current){
 	    if(current != null){
 	        postOrder(current.leftChild);
@@ -106,7 +104,7 @@ public class BinaryTree {
 	public BinaryTree() {
 		// TODO Auto-generated constructor stub
 	}
-	//²éÕÒÖµ,Ð¡µÄÖµÔÚ×ó±ß£¬´óµÄÖµÔÚÓÒ±ß
+	//ï¿½ï¿½ï¿½ï¿½Öµ,Ð¡ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ß£ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½Ò±ï¿½
 	
 	
 	public static void main(String[] args) {

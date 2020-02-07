@@ -1,10 +1,21 @@
 #  数据结构
-## 二叉树
-BinaryTree.java	
-## 图
-Graph.java
 
-## 链表优先队列
-LinkedPriorityQueue.java
-## 优先队列
-PriorityQueue.java
+数据结构的逻辑结构可归结为以下四类: <br/>
+
+线性结构  <br/>
+    
+树形结构   <br/>
+
+图形结构 <br/>
+
+集合结构 <br/>
+
+数据结构的物理结构可归结为以下四类: <br/>
+
+顺序存储结构 <br/>
+
+链式存储结构 <br/>
+
+索引结构   <br/>
+
+散列结构  <br/>
