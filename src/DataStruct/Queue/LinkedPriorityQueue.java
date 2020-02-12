@@ -26,6 +26,7 @@ public class LinkedPriorityQueue implements PriorityQueue {
 
 	@Override
 	public void add(Object element) {
+
 		// TODO Auto-generated method stub
 		if(list.isEmpty()||comparator.compare(element,list.get(list.size()-1))>=0) {
 			list.add(element);
