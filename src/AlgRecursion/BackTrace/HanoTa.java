@@ -1,4 +1,4 @@
-package AlgRecursion;
+package AlgRecursion.BackTrace;
 
 import java.util.ArrayList;
 import java.util.List;

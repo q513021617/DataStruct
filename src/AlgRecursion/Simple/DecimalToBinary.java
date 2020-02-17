@@ -1,4 +1,4 @@
-package AlgRecursion;
+package AlgRecursion.Simple;
 
 import java.util.ArrayList;
 import java.util.Iterator;

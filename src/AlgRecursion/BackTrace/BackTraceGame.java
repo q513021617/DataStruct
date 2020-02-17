@@ -1,4 +1,4 @@
-package AlgRecursion;
+package AlgRecursion.BackTrace;
 
 import java.util.Iterator;
 
@@ -32,7 +32,7 @@ public class BackTraceGame {
 	
 	
 	
-	//x,yÎªÏÂÆåµÄ×ø±ê
+	//x,yÎªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	public static void findQueen(int i) {
 		
 		if(i>7) {
@@ -57,24 +57,24 @@ public class BackTraceGame {
 	}
 	
 	public static boolean check(int k,int j) {
-		//ÓÉÓÚÃ¿´ÎÊÇµü´úÒ»ĞĞËùÒÔ²»±Ø¼ì²éºáÅÅ
-		for(int i=0;i<8;i++){//¼ì²éĞĞÁĞ³åÍ»
+		//ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ï¿½ï¿½Çµï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½Ô²ï¿½ï¿½Ø¼ï¿½ï¿½ï¿½ï¿½ï¿½
+		for(int i=0;i<8;i++){//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ³ï¿½Í»
 	         if(a[i][j]==1){
 	                return false;
 	         }
 	    }
-	    for(int i=k-1,m=j-1; i>=0 && m>=0; i--,m--){//¼ì²é×ó¶Ô½ÇÏß
+	    for(int i=k-1,m=j-1; i>=0 && m>=0; i--,m--){//ï¿½ï¿½ï¿½ï¿½ï¿½Ô½ï¿½ï¿½ï¿½
 	        if(a[i][m]==1){
 	                return false;
 	        }
 	    }
-	    for(int i=k-1,m=j+1; i>=0 && m<=7; i--,m++){//¼ì²éÓÒ¶Ô½ÇÏß
+	    for(int i=k-1,m=j+1; i>=0 && m<=7; i--,m++){//ï¿½ï¿½ï¿½ï¿½Ò¶Ô½ï¿½ï¿½ï¿½
 	        if(a[i][m]==1){
 	                return false;
 	        }
 	    }
 	   
-//		ÓÉÓÚÃ¿´Îµü´úÊÇ´ÓÉÏÍùÏÂËùÒÔ²»±Ø¼ì²é×óÏÂ£¬ÓÒÏÂ
+//		ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½Îµï¿½ï¿½ï¿½ï¿½Ç´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô²ï¿½ï¿½Ø¼ï¿½ï¿½ï¿½ï¿½ï¿½Â£ï¿½ï¿½ï¿½ï¿½ï¿½
 		return true;
 	}
 	
@@ -84,9 +84,9 @@ public class BackTraceGame {
 		// TODO Auto-generated method stub
 		
 		
-		System.out.println("°Ë»ÊºóÎÊÌâ");
+		System.out.println("ï¿½Ë»Êºï¿½ï¿½ï¿½ï¿½ï¿½");
 	    findQueen(0);
-	    System.out.println("°Ë»ÊºóÎÊÌâ¹²ÓĞ£º"+map+"ÖÖ¿ÉÄÜ");
+	    System.out.println("ï¿½Ë»Êºï¿½ï¿½ï¿½ï¿½â¹²ï¿½Ğ£ï¿½"+map+"ï¿½Ö¿ï¿½ï¿½ï¿½");
 	}
 
 }

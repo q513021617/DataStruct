@@ -1,4 +1,4 @@
-package AlgRecursion;
+package AlgRecursion.Dynamic;
 
 import java.math.BigInteger;
 import java.util.Scanner;
