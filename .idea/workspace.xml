@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0cf9a18b-31c0-48fb-8936-6a63942f7c3e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/groovyc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStruct/AlgRecursion/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStruct/DataStruct/Array/Array.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStruct/DataStruct/Array/Myarry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStruct/DataStruct/Array/OrderArry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStruct/DataStruct/Array/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStruct/DataStruct/Graph/Graph.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStruct/DataStruct/Graph/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStruct/DataStruct/Linklist/LinkList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStruct/DataStruct/Linklist/LinkListDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStruct/DataStruct/Linklist/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStruct/DataStruct/Linklist/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStruct/DataStruct/Queue/LinkedPriorityQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStruct/DataStruct/Queue/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStruct/DataStruct/Queue/PriorityQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStruct/DataStruct/Queue/QueueByArry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStruct/DataStruct/Queue/QueueByLinkList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStruct/DataStruct/Queue/QueueDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStruct/DataStruct/Queue/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStruct/DataStruct/Stack/MyStack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStruct/DataStruct/Stack/MyStackDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStruct/DataStruct/Stack/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStruct/DataStruct/String/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStruct/DataStruct/Tree/BinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStruct/DataStruct/Tree/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStruct/DataStruct/Tree/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStruct/DataStruct/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStruct/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataStruct/Queue/CircularQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataStruct/Tree/ASlTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataStruct/Tree/HashTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataStruct/Tree/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataStruct/Tree/TreeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlgRecursion/BackTrace/HanoTa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AlgRecursion/BackTrace/HanoTa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlgRecursion/Sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AlgRecursion/Sort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStruct/Graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStruct/Graph/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStruct/Queue/QueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStruct/Queue/QueueDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStruct/Queue/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStruct/Queue/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStruct/Tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStruct/Tree/BinaryTree.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1X4BiKPWPpjVC0M96FQSJnjt73D" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Groovy compiler" />
+    <property name="settings.editor.splitter.proportion" value="0.2814739" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="DataStruct.Queue" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Graph">
+    <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataStruct.Graph.Graph" />
+      <module name="DataStruct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataStruct.Graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HanoTa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AlgRecursion.BackTrace.HanoTa" />
+      <module name="DataStruct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AlgRecursion.BackTrace.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataStruct.Tree.HashTree" />
+      <module name="DataStruct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataStruct.Tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AlgRecursion.Sort.MergeSort" />
+      <module name="DataStruct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AlgRecursion.Sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataStruct.Queue.QueueDemo" />
+      <module name="DataStruct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataStruct.Queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Graph" />
+        <item itemvalue="Application.HashTree" />
+        <item itemvalue="Application.HanoTa" />
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.QueueDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0cf9a18b-31c0-48fb-8936-6a63942f7c3e" name="Default Changelist" comment="" />
+      <created>1580295611533</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580295611533</updated>
+      <workItem from="1580295613825" duration="4084000" />
+      <workItem from="1581083781707" duration="11142000" />
+      <workItem from="1581258049564" duration="1708000" />
+      <workItem from="1581317510402" duration="605000" />
+      <workItem from="1581504375148" duration="10699000" />
+      <workItem from="1581566160510" duration="17324000" />
+      <workItem from="1581687899545" duration="1480000" />
+      <workItem from="1581736071209" duration="13695000" />
+      <workItem from="1581909263613" duration="3576000" />
+      <workItem from="1582029134425" duration="6593000" />
+      <workItem from="1582093632529" duration="11000" />
+    </task>
+    <task id="LOCAL-00001" summary="增加了数组实现，链表实现">
+      <created>1580300028866</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580300028866</updated>
+    </task>
+    <task id="LOCAL-00002" summary="增加了分类">
+      <created>1581087592541</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581087592542</updated>
+    </task>
+    <task id="LOCAL-00003" summary="说明修改">
+      <created>1581088266605</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581088266605</updated>
+    </task>
+    <task id="LOCAL-00004" summary="说明修改">
+      <created>1581088577905</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581088577905</updated>
+    </task>
+    <task id="LOCAL-00005" summary="说明修改">
+      <created>1581089030886</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581089030886</updated>
+    </task>
+    <task id="LOCAL-00006" summary="说明修改">
+      <created>1581089107226</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1581089107226</updated>
+    </task>
+    <task id="LOCAL-00007" summary="说明修改">
+      <created>1581089598431</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581089598431</updated>
+    </task>
+    <task id="LOCAL-00008" summary="说明修改">
+      <created>1581089868080</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1581089868080</updated>
+    </task>
+    <task id="LOCAL-00009" summary="增加数据结构栈，队列">
+      <created>1581517684404</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1581517684404</updated>
+    </task>
+    <task id="LOCAL-00010" summary="增加数据结构之循环双链表">
+      <created>1581909368816</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1581909368816</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加了数组实现，链表实现" />
+    <MESSAGE value="增加了分类" />
+    <MESSAGE value="说明修改" />
+    <MESSAGE value="增加数据结构栈，队列" />
+    <MESSAGE value="增加数据结构之循环双链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加数据结构之循环双链表" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2254" y="156" key="#com.intellij.ide.util.MemberChooser" timestamp="1584169266012">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="632" y="109" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1581595103550" />
+    <state x="2254" y="156" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584169266012" />
+    <state x="535" y="289" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581258111868">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="535" y="289" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1581258111868" />
+    <state x="1781" y="0" key="CommitChangelistDialog2" timestamp="1581909359309">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1581089865449" />
+    <state x="1781" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1581909359309" />
+    <state width="429" height="466" key="DebuggerActiveHint" timestamp="1584177384404">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="429" height="466" key="DebuggerActiveHint/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584177384404" />
+    <state x="2028" y="204" key="FileChooserDialogImpl" timestamp="1581518650547">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="471" y="143" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1581258411834" />
+    <state x="2028" y="204" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1581518650547" />
+    <state width="1230" height="197" key="GridCell.Tab.0.bottom" timestamp="1584175311687">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1126" height="199" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1581600125948" />
+    <state width="1230" height="197" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584175311687" />
+    <state width="1230" height="197" key="GridCell.Tab.0.center" timestamp="1584175311687">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1126" height="199" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1581600125948" />
+    <state width="1230" height="197" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584175311687" />
+    <state width="1230" height="197" key="GridCell.Tab.0.left" timestamp="1584175311686">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1126" height="199" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1581600125947" />
+    <state width="1230" height="197" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584175311686" />
+    <state width="1230" height="197" key="GridCell.Tab.0.right" timestamp="1584175311687">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1126" height="199" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1581600125948" />
+    <state width="1230" height="197" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584175311687" />
+    <state width="1230" height="197" key="GridCell.Tab.1.bottom" timestamp="1584175308602">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="949" height="2" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1581595417279" />
+    <state width="1230" height="197" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584175308602" />
+    <state width="1230" height="197" key="GridCell.Tab.1.center" timestamp="1584175308602">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="949" height="2" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1581595417279" />
+    <state width="1230" height="197" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584175308602" />
+    <state width="1230" height="197" key="GridCell.Tab.1.left" timestamp="1584175308602">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="949" height="2" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1581595417279" />
+    <state width="1230" height="197" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584175308601" />
+    <state width="1230" height="197" key="GridCell.Tab.1.right" timestamp="1584175308602">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="949" height="2" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1581595417279" />
+    <state width="1230" height="197" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584175308602" />
+    <state x="186" y="0" key="SettingsEditor" timestamp="1581295965980">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1581295965980" />
+    <state x="1753" y="143" key="Vcs.Push.Dialog.v2" timestamp="1581909380199">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1581089874234" />
+    <state x="1753" y="143" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1581909380199" />
+    <state x="2018" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1582093635585">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2018" y="348" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1582093635585" />
+    <state x="1842" y="231" key="run.anything.popup" timestamp="1581511644724">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1581092384737" />
+    <state x="1842" y="231" key="run.anything.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1581511644724" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DataStruct/Linklist/DoubleList.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DataStruct/Linklist/DoubleList.java</url>
+          <line>145</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DataStruct/Linklist/DoubleList.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DataStruct/Graph/Graph.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DataStruct/Graph/Graph.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DataStruct/Graph/Graph.java</url>
+          <line>118</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

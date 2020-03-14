@@ -2,54 +2,45 @@ package AlgRecursion.BackTrace;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
+/*
+ 算法思路：1将 n-1个盘子先放到B座位上
+          2.将A座上地剩下的一个盘移动到C盘上
+          3、将n-1个盘从B座移动到C座上
+*/
 public class HanoTa {
 
-	static void moveHanoDToB(int maxCount,List<Integer> aArry,List<Integer> bArry,List<Integer> cArry){
+	static void moveHano(int n,char one,char two,char three){
 		
-		if(maxCount<2) {
-			move(aArry, bArry);
-			return;
-		}else {
-			moveHanoDToB(maxCount-1, aArry, bArry,cArry );
-			move(aArry, bArry);
-			moveHanoDToB(maxCount-1, cArry,aArry ,bArry );
+		if(n==1){
+			move(one,three);
 		}
-		
-		for(int i=0;i<aArry.size()-1;i++) {
-			
-			cArry.add(aArry.get(i));
-			aArry.remove(0);
+		if (n != 1) {
+//			将大的先移往暂存的 柱子上
+			moveHano(n-1,one,three,two);
+//			移动递归中的盘子到目标柱子上
+			move(one,three);
+//			最后将暂存的柱子上的盘子移往目标柱子上
+			moveHano(n-1,two,one,three);
 		}
-		
-		moveHanoDToB(maxCount-1, cArry, bArry, aArry);
-		
-		
-		
 		
 	}
 
-	static void move(List<Integer> aArry,List<Integer> bArry) {
-		
-		for(int i=0;i<aArry.size();i++) {
-			bArry.add(aArry.get(i));
-		}
-		int count=aArry.size();
-		for(int i=0;i<count;i++) {
-			aArry.remove(0);
-		}
+	static void move(char x,char y) {
+
+		System.out.println(x+" -----> "+y);
 		
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		List<Integer> aArry=new ArrayList<Integer>();
-		List<Integer> bArry=new ArrayList<Integer>();
-		List<Integer> cArry=new ArrayList<Integer>();
-		aArry.add(1);
-		aArry.add(2);
-		aArry.add(3);
-		
+
+		System.out.print("输入数字: ");
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+
+		moveHano(n,'A','B','C');
+
 		System.out.println();
 	}
 
