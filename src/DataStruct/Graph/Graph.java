@@ -1,5 +1,7 @@
 package DataStruct.Graph;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.Scanner;
 
 public class Graph {
@@ -97,6 +99,7 @@ public class Graph {
 			{
 				g.isTrav[i]= 0;
 			}
+
 			System.out.println("深度优先遍历：");
 			for(i = 0; i< g.VertxNum ; i++)
 			{
@@ -107,10 +110,47 @@ public class Graph {
 
 		}
 
+	static void  bfsOne(Graph g,int n){
+
+		int i,u,w;
+		g.isTrav[n] = 1;
+		System.out.println("—>" + g.Vertex[n]); //输出节点数据
+		LinkedList queue=new LinkedList();
+		queue.addLast(n);
+
+		while (!queue.isEmpty()){
+			u=(Integer) queue.removeFirst();
+
+			//添加处理节点的操作
+			for(i = 0; i< g.VertxNum; i++)
+			{
+
+				if(g.EdgeWeight[u][i] != g.MaxValue && g.isTrav[i] == 0)
+				{
+					bfsOne(g, i);
+				}
+			}
+		}
+	}
+
 //	广度优先遍历 BFS
+static void  bfs(Graph g){
 
+	int i;
+	for(i = 0; i< g.VertxNum; i++)
+	{
+		g.isTrav[i]= 0;
+	}
 
+	System.out.println("广度优先遍历：");
+	for(i = 0; i< g.VertxNum ; i++)
+	{
+		if(g.isTrav[i] == 0)
+			bfsOne(g,i);
+	}
+	System.out.println();
 
+}
 		public static void main(String[] args) {
 
 			Graph g = new Graph();
@@ -128,8 +168,8 @@ public class Graph {
 			createGraph(g);      //生成邻接表结构的图
 			System.out.println("该图的邻接矩阵数据如下：");
 			OutGraph(g);         //输出图
-			DeepTraGraph(g);    //深度优先遍历图
-			
+//			DeepTraGraph(g);    //深度优先遍历图
+			bfs(g);
 		}
 
 }

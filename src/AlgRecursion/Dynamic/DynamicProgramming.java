@@ -7,8 +7,8 @@ import java.util.Scanner;
 public class DynamicProgramming {
 
 	
-	static int sum = 0; // ��¼���е��Ƶ���Ŀ
-    static int ans = 0; // ��¼���
+	static int sum = 0;
+    static int ans = 0;
     
     public static void main(String[] args) {
     	  int[][] dp = new int[14][14];

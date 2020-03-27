@@ -3,8 +3,10 @@ package AlgRecursion.BackTrace;
 import java.util.Iterator;
 
 public class BackTraceGame {
+
 	static int map=0;
 	static int queeCount=0;
+
 	static int a[][]= {
 			{0,0,0,0,0,0,0,0},
 			{0,0,0,0,0,0,0,0},
@@ -15,8 +17,9 @@ public class BackTraceGame {
 			{0,0,0,0,0,0,0,0},
 			{0,0,0,0,0,0,0,0}
 	};
+
 	public BackTraceGame() {
-		// TODO Auto-generated constructor stub
+
 	}
 	
 
@@ -32,7 +35,7 @@ public class BackTraceGame {
 	
 	
 	
-	//x,yΪ���������
+	//x,y
 	public static void findQueen(int i) {
 		
 		if(i>7) {
@@ -44,11 +47,13 @@ public class BackTraceGame {
 		
 		
 		for(int m=0;m<=7;m++) {
+
 			if(check(i, m)) {
 				a[i][m]=1;
 				findQueen(i+1);
 				a[i][m]=0;
 			}
+
 		}
 		
 		
@@ -57,24 +62,29 @@ public class BackTraceGame {
 	}
 	
 	public static boolean check(int k,int j) {
-		//����ÿ���ǵ���һ�����Բ��ؼ�����
-		for(int i=0;i<8;i++){//������г�ͻ
+
+
+
+		for(int i=0;i<8;i++){
+
 	         if(a[i][j]==1){
 	                return false;
 	         }
 	    }
-	    for(int i=k-1,m=j-1; i>=0 && m>=0; i--,m--){//�����Խ���
+	    for(int i=k-1,m=j-1; i>=0 && m>=0; i--,m--){
+
 	        if(a[i][m]==1){
 	                return false;
 	        }
 	    }
-	    for(int i=k-1,m=j+1; i>=0 && m<=7; i--,m++){//����ҶԽ���
+	    for(int i=k-1,m=j+1; i>=0 && m<=7; i--,m++){
+
 	        if(a[i][m]==1){
 	                return false;
 	        }
 	    }
 	   
-//		����ÿ�ε����Ǵ����������Բ��ؼ�����£�����
+
 		return true;
 	}
 	
@@ -87,6 +97,7 @@ public class BackTraceGame {
 		System.out.println("�˻ʺ�����");
 	    findQueen(0);
 	    System.out.println("�˻ʺ����⹲�У�"+map+"�ֿ���");
+
 	}
 
 }
