@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0cf9a18b-31c0-48fb-8936-6a63942f7c3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AlgRecursion/PermutationAndCombination/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AlgRecursionTrain/t01/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AlgRecursionTrain/t01/test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AlgRecursionTrain/t02/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AlgRecursionTrain/t02/test02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStruct/DataStruct/Graph/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStruct/DataStruct/Graph/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AlgRecursion/BackTrace/BackTraceGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AlgRecursion/BackTrace/BackTraceGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AlgRecursion/Dynamic/DynamicProgramming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AlgRecursion/Dynamic/DynamicProgramming.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataStruct/Graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStruct/Graph/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataStruct/Tree/ASlTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStruct/Tree/ASlTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,15 +53,15 @@
   <component name="ProjectId" id="1X4BiKPWPpjVC0M96FQSJnjt73D" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../testCode" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -56,26 +73,13 @@
       <recent name="DataStruct.Queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.test02">
     <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DataStruct.Graph.Graph" />
       <module name="DataStruct" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="DataStruct.Graph.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HanoTa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AlgRecursion.BackTrace.HanoTa" />
-      <module name="DataStruct" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AlgRecursion.BackTrace.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +113,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AlgRecursion.Sort.MergeSort" />
+    <configuration name="test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AlgRecursionTrain.t01.test01" />
       <module name="DataStruct" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AlgRecursion.Sort.*" />
+          <option name="PATTERN" value="AlgRecursionTrain.t01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AlgRecursionTrain.t02.test02" />
+      <module name="DataStruct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AlgRecursionTrain.t02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test02" />
+        <item itemvalue="Application.test01" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Graph" />
         <item itemvalue="Application.HashTree" />
-        <item itemvalue="Application.HanoTa" />
-        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -153,6 +170,7 @@
       <workItem from="1581909263613" duration="3576000" />
       <workItem from="1582029134425" duration="6593000" />
       <workItem from="1582093632529" duration="11000" />
+      <workItem from="1630570075305" duration="7033000" />
     </task>
     <task id="LOCAL-00001" summary="增加了数组实现，链表实现">
       <created>1580300028866</created>
@@ -235,20 +253,19 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加了数组实现，链表实现" />
@@ -260,87 +277,46 @@
     <option name="LAST_COMMIT_MESSAGE" value="增加数据结构之图的遍历" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="632" y="109" key="#com.intellij.ide.util.MemberChooser" timestamp="1584959773424">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="765" y="285" key="#com.intellij.ide.util.MemberChooser" timestamp="1630573014494">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="632" y="109" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1584959773424" />
-    <state x="2254" y="156" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584169266012" />
-    <state x="535" y="289" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581258111868">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="765" y="285" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1160@0.0.1920.1160" timestamp="1630573014494" />
+    <state width="466" height="466" key="DebuggerActiveHint" timestamp="1630575879849">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="535" y="289" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1581258111868" />
-    <state x="1781" y="0" key="CommitChangelistDialog2" timestamp="1584178400914">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state width="466" height="466" key="DebuggerActiveHint/0.0.1920.1160@0.0.1920.1160" timestamp="1630575879849" />
+    <state width="1877" height="324" key="GridCell.Tab.0.bottom" timestamp="1630578568907">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1581089865449" />
-    <state x="1781" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584178400914" />
-    <state width="429" height="466" key="DebuggerActiveHint" timestamp="1584177384404">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state width="1877" height="324" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1630578568907" />
+    <state width="1877" height="324" key="GridCell.Tab.0.center" timestamp="1630578568907">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="429" height="466" key="DebuggerActiveHint/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584177384404" />
-    <state x="2028" y="204" key="FileChooserDialogImpl" timestamp="1584187417478">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state width="1877" height="324" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1630578568907" />
+    <state width="1877" height="324" key="GridCell.Tab.0.left" timestamp="1630578568907">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="471" y="143" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1581258411834" />
-    <state x="2028" y="204" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584187417478" />
-    <state width="1440" height="302" key="GridCell.Tab.0.bottom" timestamp="1584269208012">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state width="1877" height="324" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1630578568907" />
+    <state width="1877" height="324" key="GridCell.Tab.0.right" timestamp="1630578568907">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1126" height="199" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1581600125948" />
-    <state width="1440" height="302" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584269208012" />
-    <state width="1440" height="302" key="GridCell.Tab.0.center" timestamp="1584269208011">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state width="1877" height="324" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1630578568907" />
+    <state width="1877" height="324" key="GridCell.Tab.1.bottom" timestamp="1630578568907">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1126" height="199" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1581600125948" />
-    <state width="1440" height="302" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584269208011" />
-    <state width="1440" height="302" key="GridCell.Tab.0.left" timestamp="1584269208011">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state width="1877" height="324" key="GridCell.Tab.1.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1630578568907" />
+    <state width="1877" height="324" key="GridCell.Tab.1.center" timestamp="1630578568907">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1126" height="199" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1581600125947" />
-    <state width="1440" height="302" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584269208011" />
-    <state width="1440" height="302" key="GridCell.Tab.0.right" timestamp="1584269208012">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state width="1877" height="324" key="GridCell.Tab.1.center/0.0.1920.1160@0.0.1920.1160" timestamp="1630578568907" />
+    <state width="1877" height="324" key="GridCell.Tab.1.left" timestamp="1630578568907">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1126" height="199" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1581600125948" />
-    <state width="1440" height="302" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584269208012" />
-    <state width="1440" height="302" key="GridCell.Tab.1.bottom" timestamp="1584269208012">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state width="1877" height="324" key="GridCell.Tab.1.left/0.0.1920.1160@0.0.1920.1160" timestamp="1630578568907" />
+    <state width="1877" height="324" key="GridCell.Tab.1.right" timestamp="1630578568907">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="949" height="2" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1581595417279" />
-    <state width="1440" height="302" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584269208012" />
-    <state width="1440" height="302" key="GridCell.Tab.1.center" timestamp="1584269208012">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state width="949" height="2" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1581595417279" />
-    <state width="1440" height="302" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584269208012" />
-    <state width="1440" height="302" key="GridCell.Tab.1.left" timestamp="1584269208012">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state width="949" height="2" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1581595417279" />
-    <state width="1440" height="302" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584269208012" />
-    <state width="1440" height="302" key="GridCell.Tab.1.right" timestamp="1584269208012">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state width="949" height="2" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1581595417279" />
-    <state width="1440" height="302" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584269208012" />
-    <state x="186" y="0" key="SettingsEditor" timestamp="1581295965980">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="186" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1581295965980" />
-    <state x="1753" y="143" key="Vcs.Push.Dialog.v2" timestamp="1584178415120">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1581089874234" />
-    <state x="1753" y="143" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584178415120" />
-    <state x="2018" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1582093635585">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2018" y="348" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1582093635585" />
-    <state x="1842" y="231" key="run.anything.popup" timestamp="1581511644724">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1581092384737" />
-    <state x="1842" y="231" key="run.anything.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1581511644724" />
+    <state width="1877" height="324" key="GridCell.Tab.1.right/0.0.1920.1160@0.0.1920.1160" timestamp="1630578568907" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -375,7 +351,22 @@
           <line>158</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AlgRecursionTrain/t01/test01.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AlgRecursionTrain/t01/test01.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo typeName="AlgRecursionTrain.t01.ListNode" fieldName="next" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
