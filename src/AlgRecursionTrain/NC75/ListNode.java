@@ -1,4 +1,4 @@
-package AlgRecursionTrain.t02;
+package AlgRecursionTrain.NC75;
 
 public class ListNode {
     int val;

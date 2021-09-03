@@ -1,4 +1,4 @@
-package AlgRecursionTrain.t02;
+package AlgRecursionTrain.NC75;
 
 class Solution {
     public boolean hasCycle(ListNode head) {
@@ -9,11 +9,11 @@ class Solution {
             if(node01==null){
                 return false;
             }
-            if(node02.next!=null){
+            if(node02.next==null){
                 return false;
             }
             node02=node02.next.next;
-            if(node02!=null){
+            if(node02==null){
                 return false;
             }
             if(node01.val==node02.val){
@@ -29,13 +29,23 @@ public class test02{
         Solution solution=new Solution();
         ListNode head=new ListNode(0);
         ListNode tail=head;
+        ListNode node2=null;
         for (int i = 1; i <= 3; i++) {
+
             tail.val=i;
+            if(i==2){
+                node2=tail;
+            }
             if (i!=3)
+            {
                 tail.next = new ListNode(0);
                 tail=tail.next;
+            }
         }
-        head.display(head);
+        tail.next = new ListNode(4);
+        tail=tail.next;
+        tail.next=node2;
+//        head.display(head);
         boolean hasCycle = solution.hasCycle(head);
         System.out.println("是否有环:"+hasCycle);
     }
