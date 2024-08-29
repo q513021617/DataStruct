@@ -2,6 +2,13 @@ package AlgRecursion.Sort;
 
 public class MergeSort {
 
+    /**
+     *  归并排序
+     * @param nums
+     * @param l
+     * @param r
+     * @return
+     */
     public static int[] mergeSort(int[] nums, int l, int r) {
 
         if (l == r)
