@@ -109,7 +109,6 @@ class Node{
             preOrder(current.leftChild);
             preOrder(current.rightChild);
         }
-
     }
 
     //后序遍历

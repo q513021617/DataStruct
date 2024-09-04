@@ -12,7 +12,7 @@ public class BackTraceGame {
 			{0,0,0,0,0,0,0,0},
 			{0,0,0,0,0,0,0,0},
 			{0,0,0,0,0,0,0,0},
-			{0,0,0,0,0,0,0,0},
+			{0,0,0,5,0,0,0,0},
 			{0,0,0,0,0,0,0,0},
 			{0,0,0,0,0,0,0,0},
 			{0,0,0,0,0,0,0,0}
@@ -55,10 +55,7 @@ public class BackTraceGame {
 			}
 
 		}
-		
-		
-		
-		
+
 	}
 	
 	public static boolean check(int k,int j) {
@@ -71,12 +68,14 @@ public class BackTraceGame {
 	                return false;
 	         }
 	    }
+
 	    for(int i=k-1,m=j-1; i>=0 && m>=0; i--,m--){
 
 	        if(a[i][m]==1){
 	                return false;
 	        }
 	    }
+
 	    for(int i=k-1,m=j+1; i>=0 && m<=7; i--,m++){
 
 	        if(a[i][m]==1){
